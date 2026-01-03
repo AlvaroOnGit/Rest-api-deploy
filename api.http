@@ -1,0 +1,25 @@
+### GET all the movies
+GET http://localhost:1234/movies
+### GET movies by genre
+GET http://localhost:1234/movies?genre=fantasy
+### GET movie by id
+GET http://localhost:1234/movies/3
+### POST a new movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "The Godfhater",
+    "year": 1975,
+    "director": "Francis Ford Coppola",
+    "duration": 175,
+    "genre": ["crime","drama"],
+    "rating": 9.1
+ }
+### Update a movie
+PATCH http://localhost:1234/movies/3
+content-Type: application/json
+
+{
+  "year": 1990
+}

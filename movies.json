@@ -1,0 +1,38 @@
+[
+{
+  "id": "1",
+  "title": "Inception",
+  "year" : 2010,
+  "director": "Christopher Nolan",
+  "duration": 148,
+  "genre": ["action", "adventure", "sci-fi"],
+  "rating": 8.8
+},
+{
+  "id": "2",
+  "title": "Pulp Fiction",
+  "year" : 1994,
+  "director": "Quentin Tarantino",
+  "duration": 120,
+  "genre": ["action"],
+  "rating": 8.4
+},
+{
+  "id": "3",
+  "title": "Avatar",
+  "year" : 2009,
+  "director": "James Cameron",
+  "duration": 162,
+  "genre": ["action", "adventure", "fantasy"],
+  "rating": 8.3
+},
+{
+  "id": "4",
+  "title": "Interestellar",
+  "year" : 2014,
+  "director": "Christopher Nolan",
+  "duration": 169,
+  "genre": ["adventure", "drama", "sci-fi"],
+  "rating": 8.3
+}
+]
